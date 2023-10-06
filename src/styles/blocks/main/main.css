@@ -1,0 +1,6 @@
+@import "greeting.css";
+@import "about.css";
+
+.main {
+	margin-bottom: 40px;
+}

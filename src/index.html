@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru" class="page">
+	@@include("html/head.html", { title: "Main" })
+	<body class="page__body">
+		@@include("html/header.html", {})
+
+		<main class="main">
+			<section class="hero">
+				<div class="container">
+					<h2 class="hero__title visually-hidden">Добро пожаловать!</h2>
+					<p class="hero__text">
+						Добро пожаловать на сайт нашей компании! Всеми силами мы стараемся
+						поддерживать репутацию лучшей компании для обжарщиков.
+					</p>
+				</div>
+			</section>
+			<section class="about">
+				<ul class="container about__list">
+					<li class="about__item">
+						<h2 class="about__title subtitle title">Moнocopтa</h2>
+						<p class="about__desc">
+							Мы сотрудничаем с небольшими плантациями по всему миру, чтобы
+							собирать зерна в тж сезона. Затем мы тщательно поджариваем зерна
+							<a href="#" class="link">небольшими партиями</a>, чтобы
+							максимально раскрыть их потенциал
+						</p>
+					</li>
+					<li class="about__item">
+						<h2 class="about__title subtitle title">Смеси</h2>
+						<p class="about__desc">
+							Наши дегустаторы подобрали тщательно сбалансированные смеси на
+							любой вкус. Легендарная смесь
+							<a href="#" class="link">Вкус компании</a> в продаже всегда.
+						</p>
+					</li>
+					<li class="about__item">
+						<h2 class="about__title subtitle title">Приготовление кофе</h2>
+						<p class="about__desc">
+							Мы продаем также лучшие кофеварки, френч-прессы и перколяторы.
+							Приходите на наши
+							<a href="#" class="link">мастер-классы</a>, чтобы научиться варить
+							лучший кофе в вашей жизни
+						</p>
+					</li>
+				</ul>
+			</section>
+		</main>
+
+		@@include("html/footer.html", {})
+	</body>
+</html>

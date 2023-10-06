@@ -1,0 +1,71 @@
+/* Container */
+.container {
+	max-width: var(--main-width);
+	padding: 0 var(--page-padding);
+	margin: 0 auto;
+}
+
+/* Hidden */
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+/* Title */
+
+.title {
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 1rem;
+}
+
+/* Link */
+
+.link {
+	color: #1476b8;
+	font-weight: bold;
+}
+
+.link:visited {
+	color: #1430b8;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.link:active {
+	color: #b81414;
+}
+
+/* Selected */
+
+h1::selection,
+h2::selection,
+h3::selection,
+a::selection,
+p::selection,
+span::selection {
+	background-color: rgb(var(--bg-color-invert));
+	color: rgb(var(--text-color-invert));
+}
+
+a::selection {
+	color: rgb(20 48 200);
+}

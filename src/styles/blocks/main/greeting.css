@@ -1,0 +1,24 @@
+/* hero */
+
+.hero {
+	background: url("https://via.placeholder.com/250x200")
+		no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	padding: 5em 3em;
+	max-width: 1920px;
+}
+
+@media (width < 700px) {
+	.hero {
+		padding: 2em 1em;
+	}
+}
+
+.hero__text {
+	color: rgb(var(--text-color-invert));
+	text-align: center;
+	text-shadow: 0.1em 0.1em 0.3em
+		rgb(var(--text-color));
+}

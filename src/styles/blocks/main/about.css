@@ -1,0 +1,34 @@
+/* About */
+
+.about {
+	margin-top: 50px;
+}
+
+/* List */
+
+.about__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 15px;
+}
+
+/* Item */
+
+.about__item {
+	flex: 1 1 300px;
+	max-width: 500px;
+
+	@media (width < 635px) {
+		.about__item {
+			max-width: 100%;
+		}
+	}
+}
+
+/* Title */
+
+.about__title {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}

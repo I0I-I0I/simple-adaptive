@@ -1,0 +1,17 @@
+/* Body */
+
+.page {
+	font-family: sans-serif;
+	hyphens: auto;
+	color: rgb(var(--text-color));
+	background-color: rgb(var(--bg-color));
+}
+
+.page__body {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows:
+		max-content
+		1fr
+		max-content;
+}
